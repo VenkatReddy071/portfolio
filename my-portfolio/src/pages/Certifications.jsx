@@ -7,7 +7,7 @@ import { certificationsData } from '../data/certificationsData'; // You'll creat
 const CertificationBadge = ({ cert, index }) => {
   return (
     <motion.a
-      href={cert.link}
+      href={cert?.link}
       target="_blank"
       rel="noopener noreferrer"
       variants={fadeIn('up', 'spring', index * 0.1, 0.5)} // Staggered animation
