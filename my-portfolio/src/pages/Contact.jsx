@@ -1,13 +1,12 @@
 
 
-import React, { useState, useRef, Suspense } from 'react';
-import SectionWrapper from '../components/SectionWrapper';
-import { motion } from 'framer-motion';
-import { textVariant, fadeIn } from '../utils/animationVariants';
+import { OrbitControls } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
-import { OrbitControls, useGLTF } from '@react-three/drei';
-import axios from "axios"
-import * as THREE from 'three';
+import axios from "axios";
+import { motion } from 'framer-motion';
+import { Suspense, useRef, useState } from 'react';
+import SectionWrapper from '../components/SectionWrapper';
+import { fadeIn } from '../utils/animationVariants';
 
 const SphereModel = () => {
   const meshRef = useRef();

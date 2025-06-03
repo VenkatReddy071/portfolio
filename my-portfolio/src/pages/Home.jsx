@@ -32,14 +32,14 @@ const Home = () => {
         >
           <a
             href="#projects"
-            className="inline-block   bg-teal-600 hover:bg-teal-700 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105"
+            className="inline-block px-4 ml-3  bg-teal-600 hover:bg-teal-700 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105"
           >
             View My Work
           </a>
           <a
             href={VenkatPdf} // Update with your resume path
             download
-            className="mt-4 inline-block border-2 border-teal-600 text-teal-300 hover:bg-teal-600 hover:text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105"
+            className="mt-4 ml-4 inline-block border-2 border-teal-600 text-teal-300 hover:bg-teal-600 hover:text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105"
           >
             Download Resume
           </a>
