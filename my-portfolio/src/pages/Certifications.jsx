@@ -122,6 +122,9 @@ const CertificationBadge = ({ cert, index }) => {
  * Displays a section with a grid of certification badges.
  */
 const Certifications = () => {
+  // Added a console log to help debug if certificationsData is loaded correctly on deployment
+  console.log('Certifications Data:', certificationsData);
+
   return (
     <SectionWrapper idName="certifications">
       {/* Section Title and Subtitle */}
